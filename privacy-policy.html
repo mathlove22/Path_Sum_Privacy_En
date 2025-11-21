@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path Sum - 개인정보처리방침</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2563eb;
+            font-size: 2rem;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        
+        .last-updated {
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #1f2937;
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #2563eb;
+            padding-left: 12px;
+        }
+        
+        h3 {
+            color: #374151;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background-color: #fef3c7;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+        
+        .contact-box {
+            background-color: #eff6ff;
+            border: 2px solid #2563eb;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        
+        .contact-box h3 {
+            color: #2563eb;
+            margin-top: 0;
+        }
+        
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>개인정보처리방침</h1>
+        <p class="last-updated">최종 수정일: 2024년 11월 22일</p>
+
+        <p>
+            Path Sum("회사" 또는 "서비스")은 사용자의 개인정보 보호를 매우 중요하게 생각합니다. 
+            본 개인정보처리방침은 Path Sum 애플리케이션(이하 "앱")을 사용할 때 수집되는 정보와 
+            그 정보의 사용 방법에 대해 설명합니다.
+        </p>
+
+        <h2>1. 수집하는 정보</h2>
+        
+        <h3>1.1 자동으로 수집되는 정보</h3>
+        <p>앱을 사용할 때 다음 정보가 자동으로 수집될 수 있습니다:</p>
+        <ul>
+            <li><span class="highlight">광고 식별자(Advertising ID)</span>: 맞춤형 광고 제공을 위해 Google AdMob이 수집합니다.</li>
+            <li><span class="highlight">기기 정보</span>: 기기 모델, 운영체제 버전, 화면 해상도 등 기술적 정보</li>
+            <li><span class="highlight">앱 사용 정보</span>: 게임 플레이 통계, 세션 시간 등</li>
+        </ul>
+
+        <h3>1.2 로컬 저장 정보</h3>
+        <p>다음 정보는 사용자의 기기에만 저장되며 서버로 전송되지 않습니다:</p>
+        <ul>
+            <li>게임 최고 점수</li>
+            <li>통계 정보 (플레이 횟수, 최고 콤보 등)</li>
+            <li>설정 정보 (사운드, 진동 설정)</li>
+            <li>부활 사용 횟수 (일일 제한 관리용)</li>
+        </ul>
+
+        <h3>1.3 수집하지 않는 정보</h3>
+        <p>Path Sum은 다음 정보를 <strong>절대 수집하지 않습니다</strong>:</p>
+        <ul>
+            <li>이름, 이메일, 전화번호 등 개인 식별 정보</li>
+            <li>위치 정보</li>
+            <li>연락처</li>
+            <li>사진 또는 미디어 파일</li>
+            <li>기타 민감한 개인정보</li>
+        </ul>
+
+        <h2>2. 정보의 사용 목적</h2>
+        
+        <p>수집된 정보는 다음 목적으로만 사용됩니다:</p>
+        <ul>
+            <li><strong>게임 기능 제공</strong>: 게임 진행, 점수 기록, 통계 관리</li>
+            <li><strong>광고 표시</strong>: 맞춤형 광고 제공 및 광고 성과 측정</li>
+            <li><strong>서비스 개선</strong>: 앱 성능 최적화 및 버그 수정</li>
+            <li><strong>부활 시스템 관리</strong>: 일일 부활 횟수 제한 적용</li>
+        </ul>
+
+        <h2>3. 제3자 서비스</h2>
+        
+        <p>Path Sum은 다음 제3자 서비스를 사용합니다:</p>
+
+        <h3>3.1 Google AdMob</h3>
+        <p>
+            광고 표시를 위해 Google AdMob을 사용합니다. AdMob은 광고 식별자를 수집하여 
+            맞춤형 광고를 제공할 수 있습니다.
+        </p>
+        <ul>
+            <li>AdMob 개인정보처리방침: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+            <li>광고 맞춤설정 해제: 기기 설정 → Google → 광고 → 광고 맞춤설정 선택 해제</li>
+        </ul>
+
+        <h2>4. 정보 보호</h2>
+        
+        <p>사용자의 정보를 보호하기 위해 다음 조치를 취합니다:</p>
+        <ul>
+            <li>민감한 개인정보를 수집하지 않습니다</li>
+            <li>모든 통계 데이터는 기기에만 로컬 저장됩니다</li>
+            <li>제3자 서비스(AdMob)와의 통신은 암호화됩니다</li>
+            <li>서버에 사용자 데이터를 저장하지 않습니다</li>
+        </ul>
+
+        <h2>5. 아동의 개인정보 보호</h2>
+        
+        <p>
+            Path Sum은 13세 미만 아동을 대상으로 하지 않으며, 
+            의도적으로 13세 미만 아동의 개인정보를 수집하지 않습니다. 
+            만약 13세 미만 아동의 개인정보가 수집된 것으로 확인되면 
+            즉시 해당 정보를 삭제하겠습니다.
+        </p>
+
+        <h2>6. 사용자의 권리</h2>
+        
+        <p>사용자는 다음 권리를 가집니다:</p>
+        <ul>
+            <li><strong>데이터 삭제</strong>: 앱을 삭제하면 모든 로컬 데이터가 함께 삭제됩니다</li>
+            <li><strong>광고 맞춤설정 거부</strong>: 기기 설정에서 광고 맞춤설정을 해제할 수 있습니다</li>
+            <li><strong>앱 사용 중단</strong>: 언제든지 앱 사용을 중단할 수 있습니다</li>
+        </ul>
+
+        <h2>7. 데이터 보관 및 삭제</h2>
+        
+        <ul>
+            <li>모든 게임 데이터는 기기에 로컬로 저장됩니다</li>
+            <li>앱을 삭제하면 모든 데이터가 함께 삭제됩니다</li>
+            <li>AdMob이 수집한 데이터는 Google의 개인정보처리방침에 따라 관리됩니다</li>
+        </ul>
+
+        <h2>8. 개인정보처리방침 변경</h2>
+        
+        <p>
+            본 개인정보처리방침은 관련 법규나 서비스 정책에 따라 변경될 수 있습니다. 
+            변경 시 앱 내 공지 또는 업데이트 노트를 통해 알려드리겠습니다. 
+            중요한 변경 사항이 있을 경우 최소 7일 전에 사전 공지합니다.
+        </p>
+
+        <h2>9. 법적 근거</h2>
+        
+        <p>본 개인정보처리방침은 다음 법률에 따라 작성되었습니다:</p>
+        <ul>
+            <li>개인정보 보호법 (대한민국)</li>
+            <li>정보통신망 이용촉진 및 정보보호 등에 관한 법률</li>
+            <li>GDPR (유럽연합 일반 데이터 보호 규정, 해당 시)</li>
+        </ul>
+
+        <h2>10. 쿠키 및 유사 기술</h2>
+        
+        <p>
+            Path Sum 앱은 웹 브라우저가 아닌 네이티브 앱이므로 
+            전통적인 의미의 쿠키를 사용하지 않습니다. 
+            다만, 로컬 저장소를 사용하여 게임 설정과 통계를 저장합니다.
+        </p>
+
+        <div class="contact-box">
+            <h3>문의 및 연락처</h3>
+            <p>
+                개인정보처리방침에 대한 질문이나 우려사항이 있으시면 
+                아래 연락처로 문의해 주시기 바랍니다:
+            </p>
+            <ul style="list-style: none; margin-left: 0;">
+                <li><strong>앱 이름:</strong> Path Sum</li>
+                <li><strong>개발자:</strong> [개발자명]</li>
+                <li><strong>이메일:</strong> <a href="mailto:pathsum.game@gmail.com">pathsum.game@gmail.com</a></li>
+            </ul>
+            <p style="margin-top: 15px; font-size: 0.9rem; color: #6b7280;">
+                문의 사항은 영업일 기준 3일 이내에 답변드리겠습니다.
+            </p>
+        </div>
+
+        <hr style="margin: 40px 0; border: none; border-top: 1px solid #e5e7eb;">
+
+        <p style="text-align: center; color: #6b7280; font-size: 0.9rem;">
+            © 2024 Path Sum. All rights reserved.
+        </p>
+    </div>
+</body>
+</html>
